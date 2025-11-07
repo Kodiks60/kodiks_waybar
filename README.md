@@ -2,6 +2,9 @@
 
 Custom Waybar configuration for your desktop!
 
+## Preview
+![Waybar Screenshot](screenshot-waybar.png)
+
 ## Installation
 
 1. **Clone the repository:**
@@ -27,5 +30,6 @@ chmod +x *.sh
 3. **Restart Waybar:**
 ```bash
 pkill waybar
-waybar &
+waybar
 ```
+
