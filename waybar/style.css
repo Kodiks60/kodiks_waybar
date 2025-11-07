@@ -1,0 +1,219 @@
+* {
+    border: none;
+    border-radius: 0;
+    font-family: "JetBrains Mono1";
+    font-weight: 500;
+    font-size: 16px;
+    min-height: 0;
+}
+
+window#waybar {
+    background: rgba(21, 18, 27, 0);
+    color: #cdd6f4;
+}
+
+tooltip {
+    background: #1e1e2e;
+    border-radius: 10px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #11111b;
+}
+
+#workspaces button {
+    padding: 5px;
+    color: #636777;
+    margin-right: 5px;
+}
+
+#workspaces button.active {
+    color: #cdd6f4;
+    background: #585b70;
+}
+
+#workspaces button.focused {
+    color: #a6adc8;
+    background: #eba0ac;
+    border-radius: 10px;
+}
+
+#workspaces button.urgent {
+    color: #11111b;
+    background: #a6e3a1;
+    border-radius: 10px;
+}
+
+#workspaces button:hover {
+    background: #585b70;
+    color: #cdd6f4;
+    border-radius: 5px;
+}
+
+#custom-poweroff,
+#custom-power_profile,
+#custom-weather,
+#custom-moon,
+#custom-wallpaper,
+#window,
+#clock,
+#battery,
+#pulseaudio,
+#network,
+#bluetooth,
+#temperature,
+#memory,
+#cpu,
+#workspaces,
+#tray,
+#backlight,
+#language {
+    background: #1e1e2e;
+    opacity: 0.8;
+    padding: 0px 10px;
+    margin: 0px 2px;
+    margin-top: 10px;
+    border: 1px solid #181825;
+}
+
+#memory {
+    color: #eba0ac;
+}
+
+#temperature {
+    border-radius: 10px 0px 0px 10px;
+    color: #f5c2e7;
+}
+
+#temperature.critical {
+    color: #f38ba8;
+}
+
+#backlight {
+    border-radius: 10px 0px 0px 10px;
+}
+
+#wlr-taskbar {
+    border-radius: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px; 
+}
+
+#workspaces {
+    background: #1e1e2e;
+    border-radius: 10px;
+    margin-left: 10px;
+    padding-right: 0px;
+    padding-left: 5px;
+}
+
+#custom-poweroff {
+    color: #ccd8f3;
+    border-radius: 0px 10px 10px 0px;
+    margin-right: 10px;
+     font-family: "Font Awesome 6 Free", monospace;
+}
+
+#tray {
+    border-radius: 10px;
+}
+
+#custom-power_profile {
+    color: #a6e3a1;
+    border-left: 0px;
+    border-right: 0px;
+}
+
+#window {
+    border-radius: 10px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+#clock {
+    color: #fab387;
+    border-radius: 10px;
+    border-right: 0px;
+}
+
+#network {
+    color: #f9e2af;
+    border-left: 0px;
+    border-right: 0px;
+}
+
+#bluetooth {
+    color: #89b4fa;
+    border-radius: 0px 10px 10px 0px;
+    margin-right: 10px;
+} 
+
+#pulseaudio {
+    color: #89b4fa;
+    border-left: 0px;
+    border-right: 0px;
+}
+
+#pulseaudio.microphone {
+    color: #cba6f7;
+    border-left: 0px;
+    border-right: 0px;
+    border-radius: 0px 10px 10px 0px;
+    margin-right: 10px;
+}
+
+#battery {
+    color: #a6e3a1;
+    border-radius: 10px;
+    margin-right: 10px;
+    border-left: 0px;
+}
+
+#battery.warning {
+    color: #f9e2af;
+}
+
+#battery.critical {
+    color: #f38ba8;
+}
+
+#cpu {
+    color: #94e2d5;
+    border-left: 0px;
+    border-right: 0px;
+}
+
+#language {
+    color: #cba6f7;
+    border-radius: 10px 0px 0px 10px;
+    margin-left: 10px;
+}
+
+#custom-moon {
+    border-radius: 0px 10px 10px 0px;
+    border-right: 0px;
+    margin-left: 0px;
+}
+
+/* Стили для taskbar */
+#taskbar {
+    background: #1e1e2e;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#taskbar button {
+    padding: 5px 10px;
+    color: #636777;
+    border-radius: 5px;
+}
+
+#taskbar button.active {
+    background: #585b70;
+    color: #cdd6f4;
+}
+
+#taskbar button:hover {
+    background: #45475a;
+    color: #cdd6f4;
+}
