@@ -2,7 +2,7 @@
 
 Custom Waybar configuration for your desktop!
 
-## Preview
+## Preview (not finished yet)
 ![Waybar Screenshot](image.png)
 
 ## Installation
