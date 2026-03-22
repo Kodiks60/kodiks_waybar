@@ -3,7 +3,7 @@
 Custom Waybar configuration for your desktop!
 
 ## Preview
-![Waybar Screenshot](screenshot-waybar.png)
+![Waybar Screenshot](image.png)
 
 ## Installation
 
